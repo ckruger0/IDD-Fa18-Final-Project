@@ -2,7 +2,7 @@
 
 ### Project Idea
 
-- The goal of this project is to build a camera device that uses CNNs to identify what type of plant species is within a frame.  
+- The goal of this project is to build a camera device that uses CNNs to identify what type of plant species is within a frame. (This project was originally intended to identify bird species, which is why it says that on the LCD of the paper prototype. After further consideration I opted for subjects that lack wings.)  
 
 ### Team
 - Chris Kruger - crk78
