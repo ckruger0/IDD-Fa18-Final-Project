@@ -21,5 +21,7 @@
 - Button
 - 16x2 LCD Screen
 
+The RPi will be entirely internal, whereas the LCD Screen, Button, and Camera (imaging piece) will be externally exposed. The Battery Pack will be entirely external and power the device through a microUSB port located on the bottom of the case.
+
 ### Interaction Plan
 - A user will aim the frontside camera at a mystery plant and press the capture picture button. After identifying which plant species it is, the name will display on a 16x2 LCD screen on the back of the device.
