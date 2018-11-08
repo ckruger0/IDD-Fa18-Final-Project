@@ -30,9 +30,9 @@ while True:
     input_state = GPIO.input(19)
     if input_state == False:
         lcd.message('Taking Picture..')
-	camera.start_preview()
+        camera.start_preview()
         time.sleep(1.0)
-	timestr = time.strftime("%Y%m%d-%H%M%S")
-	camera.capture('images/' + timestr + '.jpg')
-	camera.stop_preview()
+        timestr = time.strftime("%Y%m%d-%H%M%S")
+        camera.capture('images/' + timestr + '.jpg')
+        camera.stop_preview()
         lcd.clear()
