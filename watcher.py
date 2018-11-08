@@ -43,11 +43,8 @@ class Watcher:
                 if input_state == False:
                     lcd.clear()
                     lcd.message("Taking Picture...")
-                    camera.start_preview()
-                    time.sleep(0.3)
                     timestr = time.strftime("%Y%m%d-%H%M%S")
                     camera.capture('images/' + timestr + '.jpg')
-                    camera.stop_preview()
                     lcd.clear()
         except:
             self.observer.stop()
