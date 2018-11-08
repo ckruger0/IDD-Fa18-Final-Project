@@ -39,13 +39,12 @@ class Watcher:
         self.observer.start()
         try:
             while True:
-                lcd.clear()
                 input_state = GPIO.input(19)
                 if input_state == False:
                     lcd.clear()
                     lcd.message("Taking Picture...")
                     camera.start_preview()
-                    time.sleep(0.5)
+                    time.sleep(0.3)
                     timestr = time.strftime("%Y%m%d-%H%M%S")
                     camera.capture('images/' + timestr + '.jpg')
                     camera.stop_preview()
@@ -62,13 +61,11 @@ class Handler(FileSystemEventHandler):
     @staticmethod
     def on_any_event(event):
         if event.is_directory:
-            lcd.clear()
             return None
 
         elif event.event_type == 'created':
             lcd.clear()
             lcd.message(event.src_path)
-            time.sleep(0.5)
             lcd.clear()
 
 if __name__ == '__main__':
