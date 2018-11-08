@@ -39,6 +39,7 @@ class Watcher:
         self.observer.start()
         try:
             while True:
+                lcd.clear()
                 input_state = GPIO.input(19)
                 if input_state == False:
                     lcd.clear()
@@ -61,6 +62,7 @@ class Handler(FileSystemEventHandler):
     @staticmethod
     def on_any_event(event):
         if event.is_directory:
+            lcd.clear()
             return None
 
         elif event.event_type == 'created':
