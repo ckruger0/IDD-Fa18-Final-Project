@@ -41,6 +41,7 @@ class Watcher:
             while True:
                 input_state = GPIO.input(19)
                 if input_state == False:
+                    lcd.clear()
                     lcd.message("Taking Picture...")
                     camera.start_preview()
                     time.sleep(0.5)
@@ -63,8 +64,9 @@ class Handler(FileSystemEventHandler):
             return None
 
         elif event.event_type == 'created':
+            lcd.clear()
             lcd.message(event.src_path)
-            time.sleep(1)
+            time.sleep(0.5)
             lcd.clear()
 
 if __name__ == '__main__':
