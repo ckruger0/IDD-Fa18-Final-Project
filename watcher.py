@@ -63,6 +63,8 @@ class Handler(FileSystemEventHandler):
 
         elif event.event_type == 'created':
             lcd.message(event.src_path)
+            time.sleep(0.5)
+            lcd.clear()
 
 if __name__ == '__main__':
     w = Watcher()
