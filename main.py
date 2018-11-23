@@ -43,7 +43,7 @@ class Watcher:
                 if input_state == False:
                     lcd.clear()
                     lcd.message("Taking Picture...")
-                    time.sleep(0.2)
+                    time.sleep(0.1)
                     timestr = time.strftime("%Y%m%d-%H%M%S")
                     camera.capture('images/' + timestr + '.jpg')
                     lcd.clear()
