@@ -14,16 +14,16 @@
 # ==============================================================================
 
 #!/usr/bin/python
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import time
 import Adafruit_CharLCD as LCD
 import RPi.GPIO as GPIO
 from picamera import PiCamera
-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
 
 import argparse
 import sys
@@ -120,7 +120,7 @@ class Watcher:
                     lcd.clear()
         except:
             self.observer.stop()
-            print "Error"
+            print("Error")
 
         self.observer.join()
 
@@ -134,6 +134,7 @@ class Handler(FileSystemEventHandler):
 
         elif event.event_type == 'created':
             lcd.clear()
+            lcd.message("Analyzing...")
             file_name = event.src_path
             model_file = "tf_files/retrained_graph.pb"
             label_file = "tf_files/retrained_labels.txt"
