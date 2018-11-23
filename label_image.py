@@ -167,6 +167,7 @@ class Handler(FileSystemEventHandler):
             top_k = results.argsort()[-5:][::-1]
             labels = load_labels(label_file)
 
+            lcd.clear()
             lcd.message(labels[top_k[0]])
 
 if __name__ == "__main__":
