@@ -32,10 +32,12 @@ import time
 import numpy as np
 import tensorflow as tf
 
+# Camera Setup
 camera = PiCamera()
+camera.vflip = True
 
+# Picture capture button setup
 GPIO.setmode(GPIO.BCM)
-
 GPIO.setup(19, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # Raspberry Pi pin setup
