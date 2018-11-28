@@ -25,3 +25,9 @@ The RPi will be entirely internal, whereas the LCD Screen, Button, and Camera (i
 
 ### Interaction Plan
 - A user will aim the frontside camera at a mystery plant and press the capture picture button. After identifying which plant species it is, the name will display on a 16x2 LCD screen on the back of the device.
+
+### Functioning Design
+
+<img src="https://i.imgur.com/kdg3hBr.jpg">
+
+<BR><BR> A video of the final plant identifier in action can be seen here: <a href="https://youtu.be/xIBPJVnL_bU">https://youtu.be/xIBPJVnL_bU</a>
