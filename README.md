@@ -30,7 +30,9 @@ The RPi will be entirely internal, whereas the LCD Screen, Button, and Camera (i
 - Originally I had intended on training the neural network on a massive dataset of plant images (from iNaturalist, for example). However in practice after many failed attempts of downloading a 120GB file from a broken remote server I opted to just focus on a set of houseplants that I own. Final species class set was: `['hoya carnosa','philodendron','kolanchoe','snake plant']`
 - Using a bulk image scraper I found online, I downloaded ~500 images of each plant species that I was interested in.
 - Transfer learning was used to retrain the final layer of an Inception V3 network provided by Google.
-- 
+- After final retraining the model achieved an test accuracy of 83%. While this is fairly high, there is a fair bit of overfitting as evidenced by real world testing when there is background clutter within frame.
+- The model was loaded onto the Raspberry Pi and hardware was put together. 
+- There were power issues that took a while to troubleshoot. Ultimately realized that the main power cable was not soldered properly.
 
 ### Functioning Design
 
