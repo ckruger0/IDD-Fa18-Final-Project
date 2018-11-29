@@ -56,4 +56,4 @@ The RPi will be entirely internal, whereas the LCD Screen, Button, and Camera (i
 
 ### Packaged Plant Identifier
 
-<img src="https://lh3.googleusercontent.com/4u8wAxEvTyKlGJ06t5ZPCPQgscwim9wVIK3f_ehnlAGF-ZkTp1NHkopYH6xFpPvHgnjGAOFXOqLmlNBpdtHbxAnbYWacSNHlQCIL3mFIet9R2x-XeAIOruHdSeUe0XRjJ-m_smA7Gz6MTuIjKZMG190k74Ezge6HemzAyBXLuBRZ3nvXuQbTWOH1XpBFvghyHITvGE69NjbSrp1O_u7hDS-otOJwMi-S35wOS_--R8lqrldCzDMgC9w4Qc6yQtU6iytHW0gN2dpBYW1w7fdwB3nEpn3zqD9RBGf0yhOV1LN83rMBu3B2R6U-NDpn5dRvbiYMen9tzM3iPo3aFH9RWVi96r2yCDFxCM7LoO4ss30KW8SUiHURMvDs2NTu6tVayPw21FwhCX6rAcxNhYIobQRNvdW0oDoh95Z-O3tIh-zBUB_mDjp4pM1aACmST8tZzvj9fT595lXL6vtuiyYGAHDbeTximCLM7Cz20bqR-1du67cIOZvILXu18lWxByeuVvVpn74LdZ42YNrRJi-Amv3Vze4e9K6jaBOf-d3r5Nrh1bSnB_A3_wo9G3RbXW6eJCQ64eK158iScoInjZu5-cu0d5ylOYmq=w2724-h1402">
+<img src="https://i.imgur.com/Fy9CAEH.jpg">
