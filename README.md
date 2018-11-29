@@ -2,20 +2,18 @@
 
 ### Project Idea
 
-- A device that takes a picture of a plant and classifies the plant species on board, displaying it on an LCD screen.
-
-- The goal of this project is to build a camera device that uses CNNs to identify what type of plant species is within a frame. (This project was originally intended to identify bird species, which is why it says that on the LCD of the paper prototype. After further consideration I opted for subjects that lack wings.)  
+- This project idea started from my experience of buying plants at farmers markets, where vendors often only label the plants with prices instead of species names. This makes understanding how to care for the plants difficult down the road if I'm unaware of what the specific plant is. To solve this problem I created a device that takes a picture of a plant and categorizes the species using a built in convolutional neural network. The species name is then displayed on an onboard LCD screen for the user to review. 
 
 ### Team
 - Chris Kruger - crk78
 
-### Rough Form
+### Initial Paper Prototype
 
 <img src="https://i.imgur.com/OasfU5r.jpg" width=500 height=400><BR>Front View<BR><BR>
 <img src="https://i.imgur.com/1f20Mrz.jpg" width=500 height=400><BR>Rear View<BR><BR>
 <img src="https://i.imgur.com/jlWiKaD.jpg" width=500 height=400><BR>Bottom View<BR><BR>
 
-### Expected Parts
+### Initial Expected Parts
 - Raspberry Pi
 - Raspberry Pi Camera
 - External Battery Pack
@@ -28,8 +26,26 @@ The RPi will be entirely internal, whereas the LCD Screen, Button, and Camera (i
 ### Interaction Plan
 - A user will aim the frontside camera at a mystery plant and press the capture picture button. After identifying which plant species it is, the name will display on a 16x2 LCD screen on the back of the device.
 
+### Building Journey
+- Originally I had intended on training the neural network on a massive dataset of plant images (from iNaturalist, for example). However in practice after many failed attempts of downloading a 120GB file from a broken remote server I opted to just focus on a set of houseplants that I own. Final species class set was: `['hoya carnosa','philodendron','kolanchoe','snake plant']`
+- Using a bulk image scraper I found online, I downloaded ~500 images of each plant species that I was interested in.
+- Transfer learning was used to retrain the final layer of an Inception V3 network provided by Google.
+- 
+
 ### Functioning Design
 
 <img src="https://i.imgur.com/kdg3hBr.jpg">
 
 <BR><BR> A video of the final plant identifier in action can be seen here: <a href="https://youtu.be/xIBPJVnL_bU">https://youtu.be/xIBPJVnL_bU</a>
+  
+### Final Used Parts
+- Raspberry Pi
+- Raspberry Pi Camera
+- Raspberry Pi GPIO Extension Board
+- Ribbon Cable
+- Button
+- 16x2 LCD Screen
+- Half size breadboard
+
+### Packaged Plant Identifier
+
