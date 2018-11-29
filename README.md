@@ -9,6 +9,8 @@
 
 ### Initial Paper Prototype
 
+The initial paper prototype was built with the end goal of identifying bird species. After thinking through real world use cases however, I opted to focus on plant species identification since these subjects don't move (very quickly). 
+
 <img src="https://i.imgur.com/OasfU5r.jpg" width=500 height=400><BR>Front View<BR><BR>
 <img src="https://i.imgur.com/1f20Mrz.jpg" width=500 height=400><BR>Rear View<BR><BR>
 <img src="https://i.imgur.com/jlWiKaD.jpg" width=500 height=400><BR>Bottom View<BR><BR>
