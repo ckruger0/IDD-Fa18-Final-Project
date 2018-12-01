@@ -1,4 +1,4 @@
-# IDD-Fa18-Final-Project
+# Final Lab: Plant Identifier
 
 ### Project Idea
 
