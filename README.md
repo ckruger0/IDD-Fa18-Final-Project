@@ -31,6 +31,14 @@ My original paper prototype was built with the end goal of identifying bird spec
 
 [ STATE DIAGRAM HERE ] 
 
+### To Run...
+
+`
+git clone https://github.com/ckruger0/IDD-Fa18-Final-Project.git
+cd IDD-Fa18-Final-Project
+python3 label_image.py
+`
+
 ### Building Journey
 
 ##### Software
@@ -58,7 +66,9 @@ My original paper prototype was built with the end goal of identifying bird spec
 
 ### Packaged Plant Identifier
 
-<img src="https://i.imgur.com/Fy9CAEH.jpg">
+<img src="https://i.imgur.com/V6N6tMe.jpg">
+
+<img src="https://i.imgur.com/tjbBXPX.jpg">
 
 The final Plant Identifier placed within the Useless Box from a previous lab.
 
