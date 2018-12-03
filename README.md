@@ -33,11 +33,10 @@ My original paper prototype was built with the end goal of identifying bird spec
 
 ### To Run...
 
-`
-git clone https://github.com/ckruger0/IDD-Fa18-Final-Project.git
-cd IDD-Fa18-Final-Project
-python3 label_image.py
-`
+
+`git clone https://github.com/ckruger0/IDD-Fa18-Final-Project.git` 
+`cd IDD-Fa18-Final-Project`
+`python3 label_image.py`
 
 ### Building Journey
 
