@@ -29,7 +29,7 @@ My original paper prototype was built with the end goal of identifying bird spec
 
 - When a user has a plant they would like to know the species of, they can place it on a surface that is clear of clutter so the main object within frame will be the plant. After holding the plant identifier about 3-5 feet away from the plant, they will open the camera hatch 90 degrees towards the plant subject. Pressing the gray button located on top of the device will capture an image of the plant and drop it into a directory onboard the Raspberry Pi that is regularly listening for changes. Once a new picture is dropped into this directory, it will predict the plant within frame using a pre-trained network located onboard the Pi. After roughly 10 seconds of analysis the plant species name will display on a 16x2 LCD screen on the side of the Plant Identifier.
 
-[ STATE DIAGRAM HERE ] 
+<img src="https://i.imgur.com/cnHPwuC.png">
 
 ### To Run...
 
