@@ -35,7 +35,9 @@ My original paper prototype was built with the end goal of identifying bird spec
 
 
 `git clone https://github.com/ckruger0/IDD-Fa18-Final-Project.git` 
+<BR>
 `cd IDD-Fa18-Final-Project`
+<BR>
 `python3 label_image.py`
 
 ### Building Journey
@@ -61,7 +63,7 @@ My original paper prototype was built with the end goal of identifying bird spec
 
 <img src="https://i.imgur.com/kdg3hBr.jpg">
 
-<BR><BR> A video of the functional-phase plant identifier in action can be seen here: <a href="https://youtu.be/xIBPJVnL_bU">https://youtu.be/xIBPJVnL_bU</a>
+<BR> A video of the functional-phase plant identifier in action can be seen here: <a href="https://youtu.be/xIBPJVnL_bU">https://youtu.be/xIBPJVnL_bU</a>
 
 ### Packaged Plant Identifier
 
